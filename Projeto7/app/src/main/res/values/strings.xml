@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Google Books Listing</string>
+    <string name="edittext_search">Digite o título do livro</string>
+    <string name="button_search">Pesquisar</string>
+    <string name="error_no_internet">Não há conexão com a internet</string>
+    <string name="noDataFound">Título não encontrado.\nPor favor procure por outro termo!</string>
+</resources>

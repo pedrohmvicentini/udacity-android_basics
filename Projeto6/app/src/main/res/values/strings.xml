@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Guia de trilhas e cachoeiras</string>
+
+    <string name="category_analandia">Analândia</string>
+    <string name="category_brotas">Brotas</string>
+    <string name="category_aguasDaPrata">Águas da Prata</string>
+    <string name="category_itirapina">Itirapina</string>
+
+    <!-- Analandia -->
+    <string name="analandia_name_1">Canion da Bocaina</string>
+    <string name="analandia_name_2">Camping e restaurante do Escorrega</string>
+    <string name="analandia_name_3">Morro do Cuscuzeiro</string>
+    <string name="analandia_name_4">Morro do Camelo</string>
+
+    <!-- Brotas -->
+    <string name="brotas_name_1">Camping Cachoeira do Escorregador</string>
+    <string name="brotas_name_2">Camping Jacaré</string>
+    <string name="brotas_name_3">Cachoeira 3 Quedas</string>
+
+    <!-- Águas da Prata-->
+    <string name="AguasDaPrata_name_1">Camping e Pousada Paiol</string>
+    <string name="AguasDaPrata_name_2">Pico do Gavião</string>
+    <string name="AguasDaPrata_name_3">Cachoeira Setima Queda</string>
+    <string name="AguasDaPrata_name_4">Cachoeira Cascatinha</string>
+
+    <!-- Itirapina -->
+    <string name="itirapina_name_1">Cachoeira Saltão</string>
+    <string name="itirapina_name_2">Cachoeira Monjolinho</string>
+    <string name="itirapina_name_3">Cachoeira Ferradura</string>
+    <string name="itirapina_name_4">Camping e Pousada Palmeiras</string>
+    <string name="itirapina_name_5">Morro do Fogão</string>
+</resources>

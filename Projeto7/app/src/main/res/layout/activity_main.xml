@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.projeto7.MainActivity">
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_toLeftOf="@+id/btnSearch"
+        android:hint="@string/edittext_search"
+        android:inputType="text"
+        android:paddingLeft="@dimen/activity_horizontal_margin" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/listView"
+        android:layout_alignRight="@+id/listView"
+        android:layout_alignTop="@+id/etSearch"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="@string/button_search" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/text_no_data_found"
+        android:text="@string/noDataFound"
+        android:layout_below="@+id/etSearch"
+        tools:visibility="visible"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="titulo" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/etSearch">
+
+    </ListView>
+
+</RelativeLayout>

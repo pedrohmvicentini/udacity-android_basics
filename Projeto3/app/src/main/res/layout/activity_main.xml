@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Quiz sobre futebol"
+            android:textSize="18sp" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/question1" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbQuestionOneA"
+                style="@style/Options"
+                android:text="1" />
+
+            <RadioButton
+                android:id="@+id/rbQuestionOneB"
+                style="@style/Options"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/rbQuestionOneC"
+                style="@style/Options"
+                android:text="4" />
+
+            <RadioButton
+                android:id="@+id/rbQuestionOneD"
+                style="@style/Options"
+                android:text="5" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/question2" />
+
+        <CheckBox
+            android:id="@+id/ckbQuestionTwoNapoli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Napoli" />
+
+        <CheckBox
+            android:id="@+id/ckbQuestionTwoReal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Real Madrid" />
+
+        <CheckBox
+            android:id="@+id/ckbQuestionTwoChelsea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chelsea" />
+
+        <CheckBox
+            android:id="@+id/ckbQuestionTwoValencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valencia" />
+
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/question3" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbQuestionThreePalmeiras"
+                style="@style/Options"
+                android:text="Palmeiras" />
+
+            <RadioButton
+                android:id="@+id/rbQuestionThreeJuventus"
+                style="@style/Options"
+                android:text="Juventus" />
+
+            <RadioButton
+                android:id="@+id/rbQuestionThreeAjax"
+                style="@style/Options"
+                android:text="Ajax" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/question4" />
+
+        <EditText
+            android:id="@+id/txtQuestionFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textAllCaps="true" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/question5" />
+
+        <CheckBox
+            android:id="@+id/ckbQuestionFiveBorussia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Borussia Dortmund" />
+
+        <CheckBox
+            android:id="@+id/ckbQuestionFiveManCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mancherster City" />
+
+        <CheckBox
+            android:id="@+id/ckbQuestionFiveRoma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roma" />
+
+        <CheckBox
+            android:id="@+id/ckbQuestionFivePSG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PSG" />
+
+        <CheckBox
+            android:id="@+id/ckbQuestionFiveArsenal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arsenal" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/question6" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbQuestionSixBrasil"
+                style="@style/Options"
+                android:text="Brasil" />
+
+            <RadioButton
+                android:id="@+id/rbQuestionSixItalia"
+                style="@style/Options"
+                android:text="Itália" />
+
+            <RadioButton
+                android:id="@+id/rbQuestionSixRussia"
+                style="@style/Options"
+                android:text="Rússia" />
+
+            <RadioButton
+                android:id="@+id/rbQuestionSixChina"
+                style="@style/Options"
+                android:text="China" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/question7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/boca_juniors" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/newells_old_boys" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/river_plate" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/san_lorenzo" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbQuestionSevenItalia"
+                style="@style/Options"
+                android:text="Itália" />
+
+            <RadioButton
+                android:id="@+id/rbQuestionSevenFrança"
+                style="@style/Options"
+                android:text="França" />
+
+            <RadioButton
+                android:id="@+id/rbQuestionSevenArgentina"
+                style="@style/Options"
+                android:text="Argentina" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:onClick="submitQuiz"
+            android:text="Enviar" />
+
+    </LinearLayout>
+</ScrollView>

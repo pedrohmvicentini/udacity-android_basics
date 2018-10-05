@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Projeto8</string>
+    <string name="no_news">Não há noticias no momento</string>
+    <string name="no_internet">Não há conexão com a internet</string>
+</resources>

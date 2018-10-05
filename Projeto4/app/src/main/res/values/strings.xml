@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Inicio</string>
+
+    <string name="playNow">Play Now</string>
+    <string name="playlists">Playlists</string>
+    <string name="settings">Settings</string>
+    <string name="premium">Premium</string>
+
+    <string name="HomeDetails">
+        O plano do projeto é voltado a um app de streaming. Utilizaria o WooCommerce REST API para envio e
+        recebimento de dados, assim deixando o banco de dados em um cloud server.
+    </string>
+    <string name="PlayDetails">
+        Pontos técnicos:\n
+        - carregar e executar a mídia;\n
+        - Executar funcionalidades (stop, play, next, etc);\n
+        \n
+        Possíveis soluções:\n
+        - Utilizar a classe MediaPlayer e suas funcionalidades.
+    </string>
+    <string name="PlaylistsDetails">
+        Pontos técnicos:\n
+        - Filtrar resultados;\n
+        - Carregamento de mídias e imagens em tempo hábil.\n
+        \n
+        Possíveis soluções:\n
+        - Envio de dados para filtros ao BD.\n
+        - Funções assincronas.
+    </string>
+    <string name="SettingsDetails">
+        Pontos técnicos:\n
+        - Acesso à configurações do sistema operacional;\n
+        - Registro dos dados alterados;\n
+    </string>
+    <string name="PremiumDetails">
+        Pontos técnicos:\n
+        - validar dados do usuário;\n
+        - validar forma de pagamento;\n
+        - envio de informações de forma segura.\n
+        \n
+        Possíveis soluções:\n
+        - Utilizar o WooCommerce Rest API para enviar e validar dados.
+    </string>
+</resources>

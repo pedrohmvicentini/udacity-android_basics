@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="buttonSale">Comprar</string>
+    <string name="new_product">Adicionar produto</string>
+    <string name="action_save">Salvar registro</string>
+    <string name="editor_activity_title_new_item">Adicionar registro</string>
+    <string name="editor_activity_title_edit_item">Editar</string>
+    <string name="menu_order_item">Solicitar produto</string>
+    <string name="menu_delete_item">Excluir registro</string>
+    <string name="menu_delete_all_data">Excluir tudo</string>
+    <string name="order_message">Entrar em contato via e-mail ou telefone?</string>
+    <string name="delete_message">Deseja realmente excluir esse produto?</string>
+    <string name="delete">Sim</string>
+    <string name="cancel">Cancelar</string>
+    <string name="empty_list_hint">Não possui produtos cadastrados. Inclua produtos atráves menu principal.</string>
+    <string name="image">Foto</string>
+    <string name="unsaved_changes_dialog_msg">Há mudanças não salvas na informação do produto. Você quer continuar?</string>
+    <string name="discard">Descartar</string>
+</resources>

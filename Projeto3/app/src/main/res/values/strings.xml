@@ -1,0 +1,12 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Projeto3</string>
+
+    <string name="question1">01. Quantas vezes a seleção italiana conquistou a Copa do Mundo?</string>
+    <string name="question2">02. Quais desses times fazem parte do futebol espanhol?</string>
+    <string name="question3">03. Qual time ganhou o campeonato mundial de 1951?</string>
+    <string name="question4">04. Qual é a sigla da entidade máxima do futebol?</string>
+    <string name="question5">05. Quais desses times nunca consquistaram uma UEFA Champions League?</string>
+    <string name="question6">06. Onde será realizada a Copa do Mundo de 2018?</string>
+    <string name="question7">07. Esses escudos pertencem ao futebol de qual país?</string>
+
+</resources>
